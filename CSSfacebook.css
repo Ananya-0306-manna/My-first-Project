@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header_container{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    }
+    
+
+.header{
+    max-width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    overflow: auto;
+    background-color: rgb(59,89,152);
+}
+
+.header_left{
+    font-size: 40px;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 1.5rem;
+    gap: 2rem;
+} 
+.email_container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3px;
+
+}
+
+.checkbox_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    color: white;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 2.5px;
+}
+
+.mail_box{
+    height: 23px;
+    width: 180px;
+    font-size: 11px;
+    padding-left: 0.1rem;
+    padding-top: 0.25rem;
+    background-color: white;
+    text-align: start;
+} 
+.password_container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.forget_password{
+   color: white;
+   display: flex;
+   justify-content: end;
+}
+.password_box{
+    height: 23px;
+    width: 180px;
+    background-color: white;
+    border: none;
+}
+.login-container{
+    padding-top: 2.8rem;
+}
+
+.login_button{
+    height: 28px;
+    width: 60px;
+    color: white;
+    border: 0.4px solid rgb(41, 41, 133) ;
+    background-color: rgb(94,128,191);
+    font-weight: 600;
+    text-decoration: none;
+    transform: 0.1s;
+    padding: 0.25rem 1.1rem;
+}
+.login_button:hover{
+    background-color: rgb(98, 98, 238);
+}
+
+.main_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 3rem;
+    overflow: auto;
+    background-color: #d3e3ec;
+    background-image: linear-gradient(135deg, #d3e3ec 0%, #b9c4de 100%);
+    
+    
+}
+.content_left{
+    
+    display: flex;
+    flex-direction: column;
+}
+.left_description{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(29,52,105);
+    width: 800px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.facebook_image{
+    width: 750px;
+    height: 350px;
+    padding-top:2rem ;
+}
+.content_right{
+    display: flex;
+    flex-direction: column;
+    gap:8px ;
+}
+.right_signup{
+    display: flex;
+    flex-direction: column;
+    gap:4.5px;
+    padding-right:8rem ;
+}
+.sign_up{
+    color:rgb(29,52,105) ;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.sign_description{
+    color: rgb(29,52,105) ;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+ }
+
+.first_name{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 1.3rem;
+    color:rgb(29,52,105) ;
+    font-size: 15px;
+    padding-left: 5rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first_box{
+    height: 25px;
+    width: 275px;
+    background:white;
+    border: 1px solid rgb(29, 52, 105);
+}
+
+.last_name{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 0.8rem;
+    color:rgb(29,52,105) ;
+    font-size: 15px;
+    padding-left: 5.1rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last_box{
+    height: 25px;
+    width: 275px;
+    background:white;
+    border: 1px solid rgb(29, 52, 105);
+}
+
+.your_mail{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 0.8rem;
+    color:rgb(29,52,105) ;
+    font-size: 15px;
+    padding-left: 5.1rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box_email{
+    height: 25px;
+    width: 275px;
+    background:white;
+    border: 1px solid rgb(29, 52, 105);
+}
+
+.new_password{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 0.8rem;
+    color:rgb(29,52,105) ;
+    font-size: 15px;
+    padding-left: 3.4rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.password_new{
+    height: 25px;
+    width: 275px;
+    background:white;
+    border: 1px solid rgb(29, 52, 105);
+}
+
+.select_sex{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 0.8rem;
+    color:rgb(29,52,105) ;
+    font-size: 15px;
+    padding-left: 8rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sex{
+    border: 1px solid rgb(29, 52, 105);
+}
+
+.birthday{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 0.8rem;
+    color:rgb(29,52,105) ;
+    font-size: 15px;
+    padding-left: 6.3rem;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.provide{
+    font-size: 11px;
+    padding-left: 11rem;
+    padding-top: 2.5px;
+    font-weight: 510;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(29, 52, 105);
+}
+
+.up-container{
+    padding-left: 11rem;
+    padding-top: 1rem;
+} 
+.up_button{
+    height: 28px;
+    width: 60px;
+    color: white;
+    border-bottom: 0.4px solid rgb(41, 41, 133) ;
+    border-right: 0.4px solid rgb(41, 41, 133) ;
+    border-left: 0.4px solid rgb(41, 41, 133) ;
+    background-color: rgb(73, 195, 33);
+    font-weight: 600;
+    text-decoration: none;
+    transform: 0.1s;
+    padding: 0.3rem 1.05rem;
+}
+.up_button:hover{
+    background-color: rgb(18, 159, 60);
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 6rem;
+    padding-top: 5rem;
+}
+.color_footer{
+    color:  rgb(40, 71, 142);
+}
+
+@media only screen and (min-width:600px) {
+    .mobile_container{
+        display: none ;
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+    body{
+        background:  rgb(59,89,152);
+    }
+    .header_container{
+        display: none;
+    }
+    .main_content{
+        display: none;
+    }
+    .mobile_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        padding-top:8rem ;
+    }
+    .mobile_header{
+        font-size: 40px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .mobile_mail{
+        background-color: white;
+        height: 30px;
+        width: 250px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+        font-weight: 550;
+    }
+    .mail_enter{
+        padding-left:0.2rem ;
+        padding-top: 2rem;
+    }
+    .mobile_password{
+        background-color: white;
+        height: 30px;
+        width: 250px;
+    }
+    .password_enter{
+        padding-left:0.2rem ;
+        padding-top: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+        font-weight: 550;
+    }
+    .mobile_login{
+        background-color: rgb(17, 172, 84);
+        height: 30px;
+        width: 250px;
+        border-radius: 5px;
+    }
+    .login_enter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 3px;
+    }
+    .mobile_login:hover{
+        background-color: rgb(44, 163, 44);
+    }
+    .mobile_sign{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.7rem;
+    }
+    .sign_enter{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        padding-left: 3.5rem;
+    }
+    .sign_enter:hover{
+        color: #9bcfeb;
+    }
+    .what{
+        height: 20px;
+        width: 20px;
+        background-color: rgb(70, 70, 230);
+        text-decoration: none;
+        color: white;
+        padding: 0.1rem 0.4rem;
+    }
+    .what:hover{
+        background: #6b75d4;
+    }
+    }
+
+    
