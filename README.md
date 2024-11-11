@@ -1,3 +1,3 @@
-# My-first-Project
-This is one of the project that I built while learning frontend development. 
+# My-Projects
+All the projects here is in HTML, CSS, JavaScript
 
